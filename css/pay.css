@@ -1,0 +1,50 @@
+.pay{
+width: 400px;  
+height: auto;  
+text-align: center;  
+padding: 15px;  
+border: 10px solid red; 
+}
+.img {  
+    object-fit: cover;  
+}
+
+.afterpay h1{
+    margin-left: 73vh;
+    margin-top: -60vh;
+    background-color: rgb(137, 228, 219);
+    color: #fff;
+    border: 10px solid rgb(137, 228, 219);
+}
+
+
+@media (max-width:500px){
+
+        .pay{
+          width: 100px;
+          height: 500px;
+        }
+}
+
+.btn{
+  padding: 15px 25px;
+  font-size: 24px;
+  margin-left: 100vh;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #16ccc3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+}
+
+.btn:hover {background-color: #329ec5}
+
+.btn:active {
+  background-color: #c4b546;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

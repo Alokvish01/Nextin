@@ -1,0 +1,1005 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+a{ text-decoration: none; }
+a:hover{text-decoration: none;}
+li{list-style: none;}
+.p{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #606060;
+}
+
+#loding{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgb(151, 223, 219) url('https://miro.medium.com/max/2400/1*wv0XHpfcO2Ydq6fnR9MZYQ.gif') no-repeat center;
+	z-index: 99999;
+
+
+}
+
+.Servicediv h2{
+ 	font-size: 0.9rem;
+ 	margin: 20px 0 15px 0;
+ 	font-weight: bold;
+ 	line-height: 1.1;
+ 	word-spacing: 4px;
+ }
+
+.i{
+	color: #2fccd0;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)), url('../img/header.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+	position: relative;
+}
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: .3;
+	z-index: -1;
+	background-color: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) ;
+}
+.nav-item a :before{
+	z-index: 100;
+}
+.navbar:Before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: .3;
+	z-index: -1;
+	background-color: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) ;
+}
+.navbar{
+	background-image:linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3));
+}
+.nav-item a{	
+	color: #fff!important;
+	font-weight: bold;
+	z-index: -100;
+}
+.header-section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.typ{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 130%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.header-buttons a:hover{
+	color: #50d1c0;
+	background: #fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.center-div p{
+	font-size: 1.3rem;
+	padding: 10px 0 20px 0;
+	color: white;
+
+}
+
+/************************* extra header div css start******************/
+.header-extradiv{
+	width: 100%; height: auto;
+	margin: 100px 0;
+	text-align: center;
+}
+
+.extradiv{
+	background: #fff;
+	border: medium none;
+	padding: 50px;
+	border-radius: 3px;
+	transition: 0.1s;
+}
+.extra-div:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+/************************* extra header div css End******************/
+
+/************************** offer css Start ******************************/
+
+.Serviceoffers{
+	background-color: f7f7f9;
+	padding: 50px 0;
+	margin-bottom: 500px ;
+}
+.heading{
+	margin-bottom: 50px;
+}
+
+.heading h1{
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.names h1{
+	color: 2e2e2e;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.Service-icons{
+	display: flax;
+	justify-content: center;
+	align-items: center;
+
+}
+.progress{
+	height: 0.6rem!important;
+	margin-bottom: 25px!important;
+
+}
+
+/************************* offer css End ****************************/
+
+/************************ Project done css Start ****************************/
+
+.project-work{
+	margin: 100px 0;
+
+}
+
+.project-works h1{
+	font-size: 2rem;
+	text-align: center;
+	z-index: -100;
+	
+}
+
+
+
+/************************ Project done css End ****************************/
+/* ========================	*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+body{background-color:#50d1d1;}
+
+#generic_price_table{
+	background-color: #f0eded;
+}
+
+/*PRICE COLOR CODE START*/
+#generic_price_table .generic_content{
+	background-color: #fff;
+}
+
+#generic_price_table .generic_content .generic_head_price{
+	background-color: #f6f6f6;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
+	border-color: #e4e4e4 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e4e4e4;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head span{
+	color: #525252;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign{
+    color: #414141;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency{
+    color: #414141;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent{
+    color: #414141;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .month{
+    color: #414141;
+}
+
+#generic_price_table .generic_content .generic_feature_list ul li{	
+	color: #a7a7a7;
+}
+
+#generic_price_table .generic_content .generic_feature_list ul li span{
+	color: #414141;
+}
+#generic_price_table .generic_content .generic_feature_list ul li:hover{
+	background-color: #E4E4E4;
+	border-left: 10px solid #2eccb7;
+}
+
+#generic_price_table .generic_content .generic_price_btn a{
+	border: 1.5px solid #2eccb7; 
+    color: #2ecccc;
+} 
+
+#generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
+	border-color: #00FFFF rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #0ee6e6;
+	color: #fff;
+}
+
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head span,
+#generic_price_table .generic_content.active .generic_head_price .generic_head_content .head span{
+	color: #fff;
+}
+
+#generic_price_table .generic_content:hover .generic_price_btn a,
+#generic_price_table .generic_content.active .generic_price_btn a{
+	background-color: #2eccbf;
+	color: #fff;
+} 
+#generic_price_table{
+    font-family: 'Raleway', sans-serif;
+}
+.row .table{
+    padding: 28px;
+}
+
+/*PRICE BODY CODE START*/
+
+#generic_price_table .generic_content{
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+#generic_price_table .generic_content .generic_head_price {
+	margin: 0 0 20px 0;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content{
+	margin: 0 0 50px 0;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
+    border-style: solid;
+    border-width: 90px 1411px 23px 399px;
+	position: absolute;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head{
+	padding-top: 40px;
+	position: relative;
+	z-index: 1;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head span{
+    font-family: "Raleway",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag{
+	padding: 0 0 20px;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price{
+	display: block;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign{
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency{
+    font-family: "Lato",sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent{
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+#generic_price_table .generic_content .generic_head_price .generic_price_tag .month{
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+}
+
+#generic_price_table .generic_content .generic_feature_list ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#generic_price_table .generic_content .generic_feature_list ul li{
+	font-family: "Lato",sans-serif;
+	font-size: 18px;
+	padding: 15px 0;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table .generic_content .generic_feature_list ul li:hover{
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+
+}
+#generic_price_table .generic_content .generic_feature_list ul li .fa{
+	padding: 0 10px;
+}
+#generic_price_table .generic_content .generic_price_btn{
+	margin: 20px 0 32px;
+}
+
+#generic_price_table .generic_content .generic_price_btn a{
+    border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    outline: medium none;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#generic_price_table .generic_content,
+#generic_price_table .generic_content:hover,
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg,
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg,
+#generic_price_table .generic_content .generic_head_price .generic_head_content .head h2,
+#generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head h2,
+#generic_price_table .generic_content .price,
+#generic_price_table .generic_content:hover .price,
+#generic_price_table .generic_content .generic_price_btn a,
+#generic_price_table .generic_content:hover .generic_price_btn a{
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+} 
+@media (max-width: 320px) {	
+}
+
+@media (max-width: 767px) {
+	#generic_price_table .generic_content{
+		margin-bottom:75px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#generic_price_table .col-md-3{
+		float:left;
+		width:50%;
+	}
+	
+	#generic_price_table .col-md-4{
+		float:left;
+		width:50%;
+	}
+	
+	#generic_price_table .generic_content{
+		margin-bottom:75px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+}
+#generic_price_table_home{
+	 font-family: 'Raleway', sans-serif;
+}
+
+.text-center h1,
+.text-center h1 a{
+	color: #131212;
+	font-size: 30px;
+	font-weight: 300;
+	text-decoration: none;
+}
+.demo-pic{
+	margin: 0 auto;
+}
+.demo-pic:hover{
+	opacity: 0.7;
+}
+
+#generic_price_table_home ul{
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	display: table;
+}
+#generic_price_table_home li{
+	float: left;
+}
+#generic_price_table_home li + li{
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+#generic_price_table_home li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	font-size: 0px;
+}
+#generic_price_table_home .blue{
+	background: #3498DB;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .emerald{
+	background: #2eccc4;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .grey{
+	background: #7F8C8D;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .midnight{
+	background: #34495E;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .orange{
+	background: #E67E22;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .purple{
+	background: #9B59B6;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .red{
+	background: #E74C3C;
+	transition:all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .turquoise{
+	background: #1ABC9C;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#generic_price_table_home .blue:hover,
+#generic_price_table_home .emerald:hover,
+#generic_price_table_home .grey:hover,
+#generic_price_table_home .midnight:hover,
+#generic_price_table_home .orange:hover,
+#generic_price_table_home .purple:hover,
+#generic_price_table_home .red:hover,
+#generic_price_table_home .turquoise:hover{
+	border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+	transition: all 0.3s ease-in-out 0s;
+}
+#generic_price_table_home .divider{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+#generic_price_table_home .divider span{
+	width: 100%;
+	display: table;
+	height: 2px;
+	background: #ddd;
+	margin: 50px auto;
+	line-height: 2px;
+}
+#generic_price_table_home .itemname{
+	text-align: center;
+	font-size: 50px ;
+	padding: 50px 0 20px ;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 40px;
+	text-decoration: none;
+    font-weight: 300;
+}
+#generic_price_table_home .itemnametext{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#generic_price_table_home .footer{
+	padding:40px 0;
+}
+
+.price-heading{
+    text-align: center;
+}
+.price-heading h1{
+	color: #666;
+	margin: 0;
+	padding: 0 0 50px 0;
+}
+.demo-button {
+    background-color: #333333;
+    color: #ffffff;
+    display: table;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: medium ;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bottom_btn{
+	background-color: #333333;
+    color: #ffffff;
+    display: table;
+    font-size: 28px;
+    margin: 60px auto 20px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.demo-button:hover{
+	background-color: #666;
+	color: #FFF;
+	text-decoration:none;
+	
+}
+.bottom_btn:hover{
+	background-color: #666;
+	color: #FFF;
+	text-decoration:none;
+}
+
+
+/************************ PRICING css Start ****************************
+
+.pricing{
+	width: 100%;
+	height: 100vh;
+	padding: 50pv;
+	position: relative;
+	background: linear-gradient(#16c9f6 10%, #fff);
+}
+
+.pricing:Before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	background-color: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+}
+#pricinghover:hover{
+	color: #16c9f6;
+	background: #f3efef;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+	font-size: 1.6rem;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 15px 9!important;
+	transition: 1s ease;
+}
+.card-footer:hover{
+	color: #16c9f6;
+	background-color: white;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+
+
+************************ PRICING css End ****************************/
+
+
+/************************ Our Custmor Happy css Start ****************************/
+
+.happyclients{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+
+}
+.box{
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0,0.2);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0,0.3);
+	border-radius: 2px;
+	transition: 0.3s ease;
+
+}
+
+
+.box:hover p{
+				color: blue;
+}
+.carousel-indicators{
+	position: absolute;
+	right: 0;
+	bottom: -60px !important;
+}
+.carousel-indicators li{
+	background-color:#16c9f6!important;
+}
+.box a{
+	position: relative;
+}
+.box a img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.box a:after{
+	content: "\f10d";
+	font-family: fontawesome;
+	height: 40px;
+	width: 40px;
+	color: white;
+	position: absolute;
+	top: 120%;
+	left: 70%;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+}
+.box h1{
+	font-size:18px ;
+	font-size:700;
+	color: #000;
+	margin-bottom: 10px;
+}
+.box h2{
+	font-size:13px ;
+	font-weight:700px;
+	color: #666666;
+	margin-bottom: 20px;
+}
+
+/************************ Our Custmor Happy css End ****************************/
+
+/************************ contact Us css Start ****************************/
+
+.contectus{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0;
+	position: relative;
+	background: linear-gradient(#16c9f6 10%, #fff);
+
+}
+.contectus:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	
+}
+.btn{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: lightblue;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+.btn:hover{
+	color: #50d1c0;
+	background: #fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+::placeholder{
+	font-size: 0.85rem;
+}
+/************************ contact Us css End ****************************/
+
+/************************ newslatter css Start ****************************/
+.Newslatter{
+	width: 100%;
+	height: auto;
+	margin: 80px auto;
+}
+.news-input{
+	border-radius: 100px 0px 0px 100px;
+	min-width: 150px;
+	min-width: 45px;
+	min-height: 3rem;
+}
+.input-group-text{
+	color: #fff;
+	background: #5bc0de;
+	border-radius: 0 100px 100px 0;
+	min-width: 90px;
+	min-height: 0px;
+}
+/************************ newslatter css End ****************************/
+
+/************************ footer css Start ****************************/
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background: #00abff;
+	position: relative;
+
+}
+.footersection p{
+	color: #fff;
+}
+.footersection li a{
+	font-size: 0.9;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+	text-align: center;
+
+}
+.footersection h3{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.2rem!important;
+	font-weight: bold;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+#myBtn{
+	position: fixed;
+	bottom: 100px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	color: #fff;
+	background: #00abff;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#myBtn:hover{
+	background: #606060;
+}
+/************************ footer css End ****************************/
+
+
+/**************** Media quries Start***************/
+
+@media(max-width: 768px){
+		.nav-item{
+			text-align: center!important;
+		}
+
+		.pricing, .contectus {
+			height: auto;
+			margin-top: 50px;
+		}
+		.pricinghover{
+			transform: translate(0px);
+			margin-top: 30px 0;
+		}
+
+		.happyclients {
+			height: auto;
+			margin-top: 50px;
+		}
+		.navigation{
+				text-align: left!important;
+		}
+		.footer-div{
+			margin: 30px 0;
+		}
+		.input-group-text{
+
+			min-width: 100px;
+			min-height: 0rem;
+		}
+		.news-input{
+			min-width: 150px;
+			min-width: 45px;
+			min-height: 3rem;
+		}
+		.navbar{
+			background-color: #00ffff95;
+			text: center;
+		}
+	}
+
+	/**************** Media quries End ***************/
+
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Noto Sans', sans-serif
+	}
+	
+	html,
+	body {
+		height: 100%
+	}
+	
+	body {
+		display: grid;
+		place-items: center;
+		background: #eee
+	}
+	
+	.cards {
+		border-radius: 20px;
+		background: #eeeeee;
+		box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff;
+		border: none
+	}
+	
+	.cards img {
+		border-radius: 50%;
+		background: linear-gradient(145deg, #d6d6d6, #ffffff);
+		box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+	}
+	
+	.neo-button {
+		width: 40px;
+		height: 40px;
+		outline: 0 !important;
+		cursor: pointer;
+		color: #fff;
+		font-size: 15px;
+		border: none;
+		margin-right: 10px;
+		border-radius: 50%;
+		background: linear-gradient(145deg, #d6d6d6, #ffffff);
+		box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+	}
+	
+	.neo-button:active {
+		border-radius: 50%;
+		background: linear-gradient(145deg, #d6d6d6, #ffffff);
+		box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
+	}
+	
+	.fa-facebook {
+		color: #3b5998
+	}
+	
+	.fa-linkedin {
+		color: #0077b5
+	}
+	
+	.fa-google {
+		color: #dc4e41
+	}
+	
+	.fa-youtube {
+		color: #cd201f
+	}
+	
+	.fa-twitter {
+		color: #55acee
+	}
+
+	/************Well done Alok my frist website is reday to fire Now i'm very happy *********/
+
+
+.counter
+{
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 20px;
+    background-color: #00b3e7;
+    border-radius: 10%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 72px;
+    width: 72px;
+    height: 72px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+.text {
+	color: rgb(233, 176, 31);
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+  }
